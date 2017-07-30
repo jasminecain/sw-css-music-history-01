@@ -8,90 +8,113 @@
  </head>
  <body>
 
-   <div>
+   <div class="header">
     <nav>
-      <ul>
+      <ul class="list-inline">
         <li>View Music</li>
-        <li><a href="#"></a>Add Music</li>
-        <li><a href="#"></a>Profile</li>
+        <li><a href="#">Add Music</a></li>
+        <li><a href="#">Profile</a></li>
       </ul>
     </nav>
    </div>
 
-   <aside>
-    <div>
+   <main>
+    <div class="tracks">
       <section>
         <article>
           <div>
-            <h2>Song Name</h1>
-              <ul>
-                <li><p>Artist Name</p></li>
-                <li><p>Album Name</p></li>
-                <li><p>Genre</p></li>
+            <h2>When you Believe</h1>
+              <ul class="list-inline">
+                <li>Mariah Carey</li>
+                <li>Best of Mariah Carey</li>
+                <li>Pop</li>
               </ul>
           </div>
           </div>
-            <h2>Song Name</h1>
-              <ul>
-                <li><p>Artist Name</p></li>
-                <li><p>Album Name</p></li>
-                <li><p>Genre</p></li>
+            <h2>Girl on Fire</h1>
+              <ul class="list-inline">
+                <li>Alicia Keys</li>
+                <li>Girl on Fire</li>
+                <li>R & B</li>
+              </ul>
+          </div>
+          <div>
+            <h2>Leave Out All the Rest</h1>
+              <ul class="list-inline">
+                <li>Linkin Park</li>
+                <li>Minutes to Midnight</li>
+                <li>Alternative Rock</li>
               </ul>
           </div>
           <div>
             <h2>Song Name</h1>
-              <ul>
-                <li><p>Artist Name</p></li>
-                <li><p>Album Name</p></li>
-                <li><p>Genre</p></li>
+              <ul class="list-inline">
+                <li>Mika Nakashima</li>
+                <li>The End</li>
+                <li>J pop</li>
               </ul>
           </div>
           <div>
-            <h2>Song Name</h1>
-              <ul>
-                <li><p>Artist Name</p></li>
-                <li><p>Album Name</p></li>
-                <li><p>Genre</p></li>
+            <h2>I My Me Mine</h1>
+              <ul class="list-inline">
+                <li>4 Minute/li>
+                <li>I My Me Mine</li>
+                <li>K pop</li>
               </ul>
           </div>
         </article>
       </section>
     </div>
-   </aside>
+   </main>
 
-   <div>
-    <div class="range-slider">
-       <p>Song Length:</p>
-       <input class="range-slider-cursor" type="range" value="0" min="175" max="365">
-    </div>
-    <div class="selectdropdown">
-      <p>Artist:</p>
-      <select>
-        <option value=" "> </option>
-        <option value=" "> </option>
-      </select>
+  <aside class="selection-types">
+    <div>
+    <br>
+      <div class="range-slider">
+        <p>Song Length:</p>
+        <input class="range-slider-cursor" type="range" value="0" min="175" max="365">
+      </div>
+      <div class="selectdropdown">
+        <p>Artist:</p>
+        <select>
+          <option value="Options">Options</option>
+          <option value="Options">Mariah Carey</option>
+          <option value="Options">Alicia Keys</option>
+          <option value="Options">Mika Nakashima</option>
+          <option value="Options">Linkin Park</option>
+          <option value="Options">2NE1</option>
+        </select>
+        <br>
+        <p>Album</p>
+        <select>
+          <option value="Options">Options</option>
+          <option value="Options">Best of Mariah Carey</option>
+          <option value="Options">Girl on Fire</option>
+          <option value="Options">The End</option>
+          <option value="Options">Minutes to Midnight</option>
+          <option value="Options">To Anyone</option>
+        </select>
+      </div>
       <br>
-      <p>Album</p>
-      <select>
-        <option value=" "> </option>
-        <option value=" "> </option>
-      </select>
+      <div class="check-boxes">
+        <p>Genre:</p>
+        <ul class="genre-options">
+          <li><input type="checkbox" id="ckbox" class="plain-checkbox">J-pop</li>
+          <li><input type="checkbox" id="ckbox" class="plain-checkbox">Pop</li>
+          <li><input type="checkbox" id="ckbox" class="plain-checkbox">K-pop</li>
+        </ul>
+        <ul class="genre-options">
+          <li><input type="checkbox" id="ckbox" class="plain-checkbox">R & B</li>
+          <li><input type="checkbox" id="ckbox" class="plain-checkbox">Rock</li>
+          <li><input type="checkbox" id="ckbox" class="plain-checkbox">Hip hop</li>
+        </ul>
+      </div>
+      <br>
+      <div class="submit-btn">
+        <button type="button" class="stylebtn" >Filter</button>
+      </div>
     </div>
-    <div class="styleckbox">
-      <p>Genre:</p>
-      <ul>
-        <li><input type="checkbox" id="ckbox"><p>Rock</p></li>
-        <li><input type="checkbox" id="ckbox"><p>Pop</p></li>
-        <li><input type="checkbox" id="ckbox"><p>Blues</p></li>
-      </ul>
-      <ul>
-        <li><input type="checkbox" id="ckbox"><p>Classical</p></li>
-        <li><input type="checkbox" id="ckbox"><p>Jazz</p></li>
-        <li><input type="checkbox" id="ckbox"><p>Hip hop</p></li>
-      </ul>
-    </div>
-    <button type="button" class="stylebtn" >Filter</button>
-   </div>
+  </aside>
 
  </body>
  </html>
