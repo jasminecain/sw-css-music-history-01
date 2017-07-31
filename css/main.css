@@ -22,6 +22,11 @@ li {
   display: inline;
 }
 
+.list-inline.with-separator li:not(:last-child):after {
+  content: '|';
+  padding: 0 8px;
+}
+
 .header {
   background-color: #FFB4B0;
   border-style: solid;
