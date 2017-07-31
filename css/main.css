@@ -42,7 +42,7 @@ nav li a {
 aside {
   border-style: solid;
   float: left;
-  height: 440px;
+  height: 650px;
   width: 165px;
   padding: 43px;
 }
@@ -62,7 +62,7 @@ main {
   background-color: #FEFAC0;
   border-style: solid;
   float: right;
-  height: 440px;
+  height: 650px;
   margin: 0;
   padding: 43px;
   width: 597px;
